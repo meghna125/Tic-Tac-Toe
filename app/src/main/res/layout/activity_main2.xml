@@ -1,0 +1,50 @@
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="25dp"
+    tools:context=".MainActivity"
+
+
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/text_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to Play?"
+        android:layout_marginLeft="10dp"
+        android:textColor="#1dbcdf"
+        android:textSize="30sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#0ed9e4"/>
+
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="359dp"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10sp"
+        android:text="1.Choose who goes first.\n\n2.First Player has Yellow counter and the second Player has Red counter.\n\n3.These symbols will be placed on the table ,in the attempt to have three of them in a row.\n\n4.The players take turns putting their symbol on the table.\n\n5.The first Player to have 3 of his or her symbol in a row,whether it is horizontally,vertically,or diagonally,is the winner. "
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="107dp"
+        android:layout_height="42dp"
+        android:background="@drawable/button"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120sp"
+        android:text="Back" />
+</LinearLayout>
